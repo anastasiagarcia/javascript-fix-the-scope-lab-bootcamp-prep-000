@@ -27,6 +27,6 @@ var funkyFunction= function () {
   }
 }
 
-// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
-// NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()();
+var theFunk = funkyFunction()(); 
+
+//to make this work you need to call the function twice, because if you use just 1 () it will return another function, so you need to call that one to be able to get "FUNKY"!
