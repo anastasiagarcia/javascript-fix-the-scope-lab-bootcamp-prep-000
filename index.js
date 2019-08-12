@@ -21,7 +21,7 @@ function add2(n) {
 
 }
 
-var function = function () {
+var  = function () {
   return function () {
     return "FUNKY!"
   }
